@@ -1,1 +1,24 @@
-fff
+1. Sözdizimsel Hatalar (Syntax Errors):
+Bu hatalar, programın dil kurallarına uyulmadığında ortaya çıkar.
+Örnek: Java’da bir ifadenin sonuna noktalı virgül unutulması.
+Çözüm: Bu hatalar genellikle derleyici veya yorumlayıcı tarafından tespit edilir ve hata mesajları ile bildirilir. Geliştirici, bu hata mesajlarını takip ederek hataları düzeltebilir.
+
+2. Çalışma Zamanı Hataları (Runtime Errors):
+Bu hatalar, program çalıştırıldığında ortaya çıkar.
+Örnek: Sıfıra bölme hatası, bellek taşması, dosya bulunamadı hatası.
+Çözüm: Çalışma zamanı hatalarını önlemek için kodunuzda dikkatli olmalı ve hata yönetimi yapmalısınız. Örneğin, bir sayının sıfıra bölünüp bölünmediğini kontrol etmek, dosya işlemlerinde dosyanın var olup olmadığını kontrol etmek gibi.
+
+3. Mantıksal Hatalar (Logical Errors):
+Bu hatalar, programın yanlış sonuçlar üretmesine neden olan hatalardır.
+Örnek: Bir döngünün yanlış koşulla oluşturulması, yanlış hesaplama yapılması.
+Çözüm: Mantıksal hataları bulmak ve düzeltmek genellikle diğer hata türlerine göre daha zordur. Bu tür hataları önlemek için kodunuzu dikkatli bir şekilde planlamalı, test etmeli ve mümkünse kod incelemesi yapmalısınız.
+
+En Az Hata İle Kod Yazmak İçin Yapılması Gerekenler:
+
+İyi Bir Planlama Yapmak: Yazılım geliştirmeye başlamadan önce iyi bir plan yapmak, gereksinimleri anlamak ve tasarımı düzgün bir şekilde yapmak önemlidir.
+Kod İncelemesi Yapmak: Kodu yazdıktan sonra başkalarının veya kendinizin kodunuzu incelemesini sağlamak, hataları erken aşamada bulmaya yardımcı olabilir.
+Test Yazmak: Birim testleri yazmak, kodunuzun beklediğiniz gibi çalıştığından emin olmanıza yardımcı olur.
+Hata Yönetimi Yapmak: Programınızda olası hata durumlarını öngörüp bu hataları yönetecek kodları yazmak, çalışma zamanı hatalarını minimize eder.
+Düzenli ve Temiz Kod Yazmak: Kodunuzu sade, anlaşılır ve düzenli tutmak, hataları bulmayı ve düzeltmeyi kolaylaştırır.
+Kodunuzu Sürekli Gözden Geçirmek: Yazılımınızı sürekli olarak gözden geçirip iyileştirmek, olası hataları önlemeye yardımcı olur.
+Güncel ve Güvenilir Araçlar Kullanmak: Yazılım geliştirme araçlarınızı güncel tutmak ve güvenilir araçlar kullanmak, hataları bulmanıza ve düzeltmenize yardımcı olabilir.
